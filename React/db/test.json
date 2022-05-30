@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "1111",
+      "author": "writer-1"
+    },
+    {
+      "title": "3333",
+      "author": "xiaoming",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "1111-comment",
+      "postId": 1
+    },
+    {
+        "id": 2,
+        "body": "2222-comment",
+        "postId": 2
+      }
+  ]
+}

@@ -3,7 +3,7 @@
  * @Author: John Huang
  * @Date: 2022-05-12 00:47:47
  * @LastEditors: John Huang
- * @LastEditTime: 2022-05-29 21:32:30
+ * @LastEditTime: 2022-05-29 22:13:29
  */
 import React from "react";
 import { Layout, Menu } from "antd";
@@ -44,3 +44,4 @@ export default function SideMenu(props) {
         </Sider>
     );
 }
+// export default withRouter(SideMenu)

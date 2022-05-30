@@ -3,7 +3,7 @@
  * @Author: John Huang
  * @Date: 2022-05-11 00:16:00
  * @LastEditors: John Huang
- * @LastEditTime: 2022-05-16 23:10:43
+ * @LastEditTime: 2022-05-29 22:07:41
  */
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
@@ -41,7 +41,7 @@ export default function NewsSandBox() {
                         <Route path="/right-manage/right/list" element={<RightList />} />
                         <Route path="/" element={<Navigate to="/home" />} exact />
                         <Route path="*" element={<Nopermission />} />
-                    </Routes>
+                    </Routes> 
                 </Content>
             </Layout>
         </Layout>
